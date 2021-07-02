@@ -6,12 +6,30 @@
 
 #main-first-container{
     margin-bottom: 13px;
+    background-image: url(../img/banner.jpg); 
+    background-size: cover;
+    background-position: 500px;
+    background-position: center;
+    filter: opacity(0.7);
 }
 
 #main-second-container{
-    background-color: rgb(113, 113, 248);
-    height: 400px;
+    background-color: white;
+    height: 450px;
     margin-bottom: 5px;
+}
+
+#title-first-container{
+    width: 490px;
+    height: 270px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 3px;
+    left: 24px;
+}
+
+#heart{
+    color: red;
 }
 
 .logo{
@@ -19,13 +37,18 @@
     height: 50px;
 }
 
+.lady-tree{
+    width: 133px;
+    border-radius: 3%;
+}
+
 body{
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
 }
 
 header{
-    background-color: whitesmoke;
+    background-color: white;
     height: 100px;
     margin-bottom: 13px;
 }
@@ -33,6 +56,8 @@ header{
 li{
     display:inline-block;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 
 .decoration-line{
@@ -47,21 +72,23 @@ li{
     float: left;
 }
 
-.square-yellow{
-    background-color: rgb(228, 218, 83);
-    height: 270px;
+.square-yellow{ 
+    height: 300px;
     width: 100%;
+    
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: white;
     height: 40px;
+    text-align: center;
 }
 
 .up-lightblue{
-    background-color: lightblue;
+    background-color: white;
     height: 50px;
     margin-bottom: 13px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
@@ -71,14 +98,23 @@ footer{
 }
 
 .l-bg{
-    background-color: lightblue;
-    width: 15%;
+    background-color: white;
+    width: 20%;
     height: 320px;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .centre-bg{
-    background-color: lightblue;
+    background-color: white;
     height: 320px;
-    width: calc(70% - 20px);
+    width: calc(60% - 20px);
     margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.man-tree{
+    height: 133px;
+    width: 300px;
+    
 }
