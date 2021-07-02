@@ -5,13 +5,7 @@
 }
 
 #main-first-container{
-    margin-bottom: 13px;
-    background-image: url(../img/banner.jpg); 
-    background-size: cover;
-    background-position: 500px;
-    background-position: center;
-    filter: opacity(0.7);
-    border-radius: 10px;
+    margin-bottom: 13px; 
 }
 
 #main-second-container{
@@ -22,11 +16,12 @@
 
 #title-first-container{
     width: 490px;
-    height: 270px;
+    height: 147px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     bottom: 3px;
     left: 24px;
+    color: honeydew;
 }
 
 #heart{
@@ -38,9 +33,30 @@
     height: 50px;
 }
 
-.lady-tree{
-    width: 133px;
-    border-radius: 10px;
+.lady-tree1{
+    background-image:
+    linear-gradient(rgba(145, 67, 197, 0.2), rgba(0,0,0,0.2)),
+     url(../img/img-1.jpg);
+     
+}
+
+.lady-tree2{
+    background-image:
+    linear-gradient(rgba(145, 67,197 ,0.2), rgba(0,0,0,0.2)),
+     url(../img/img-3.jpg);  
+}
+
+.photo{
+    height: 133px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+p{
+    margin-top: 10px;
 }
 
 body{
@@ -61,8 +77,13 @@ li{
     font-size: small;
 }
 
+ul{
+    word-spacing: 15px;
+}
+
 .decoration-line{
     text-decoration-line: none;
+    color: gray;
 }
 
 .float-right{
@@ -76,14 +97,20 @@ li{
 .square-yellow{ 
     height: 300px;
     width: 100%;
-    
+    background-image:
+    linear-gradient(rgba(145, 67,197 ,0.2), rgba(0,0,0,0.2)),
+     url(../img/banner.jpg);
+    background-size: cover;
+    background-position: 500px;
+    background-position: center;
+    filter: opacity(0.9);
+    border-radius: 10px; 
 }
 
 footer{
     background-color: white;
     height: 40px;
     text-align: center;
-    border-bottom-width: 2px;
 }
 
 .up-lightblue{
@@ -117,7 +144,8 @@ footer{
 }
 
 .man-tree{
-    height: 133px;
-    width: 300px;
-    
+  background-image:
+   linear-gradient(rgba(145, 67, 197, 0.2), rgba(0,0,0,0.2)),
+   url(../img/banner-2.jpg);
+   margin: 15px 0;
 }
